@@ -10,7 +10,7 @@ const Dashboard = () => {
   const [border, setBorder] = useState(1);
   const [search, setSearch] = useState("");
   const [dropDown, setDropDown] = useState("");
-  const [modal, setModal] = useState(true);
+  const [modal, setModal] = useState(false);
 
   var filterSearch = users.filter((val)=>{
     return val.name.toLowerCase().includes(search.toLowerCase())
