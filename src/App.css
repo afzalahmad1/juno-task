@@ -1,0 +1,31 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main{
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  flex-flow: column wrap;
+  gap: 1rem;
+  max-width: calc(100vw - 35rem);
+  /* border: 1px solid red; */
+}
+.intern{
+  background-color: #ffbf8a;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 12px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.assignment{
+  font-size: 64px;
+  font-weight: 700;
+ 
+}
+.text{
+  font-size: 30px;
+}

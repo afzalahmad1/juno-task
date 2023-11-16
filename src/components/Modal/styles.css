@@ -1,0 +1,72 @@
+.modal{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    /* border: 2px solid black; */
+    background-color: 2px solid black;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 99.5vw; 
+    height: 84.8vh; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 1.5rem;
+    border-radius: 9px;
+    min-width: 20rem;
+  }
+  .close-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  .dropdown-modal{
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: .2rem;
+    color: #4b4949;
+
+  }
+  .dropdown-modal select{
+    padding: .4rem;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .modal-radio{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    align-items: center;
+    column-gap: 1rem;
+    margin: 1rem 0rem;
+  }
+  .closure{
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: .2rem;
+  }
+  .modal-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  .account-btn{
+    /* border: 1px solid red; */
+    padding: .5rem .7rem;
+    background-color: #4643ee;
+    color: #fefefe;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
